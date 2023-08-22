@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--这个名称空间是Mapper接口的路径，记得修改-->
+<mapper namespace="com.example.Eficiency.mapper.BannerMapper">
+
+    <select id="list1" resultType="com.example.Eficiency.model.BannerBO">
+        select *
+        from banner;
+    </select>
+</mapper>
